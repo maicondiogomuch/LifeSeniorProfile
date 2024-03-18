@@ -13,7 +13,7 @@ import os
 
 WORKING_DIRECTORY = 'D:\\tese_maicon\\IA_Data_Analysis'
 
-class AFD_RNN_Train(object):
+class ELDERY_RISK_RNN_Train(object):
 
     def __init__(self, train_config):
 
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     print(current_working_directory)
 
     train_config = parser_cfg_file('./config/train.cfg')
-    train = AFD_RNN_Train(train_config)
+    train = ELDERY_RISK_RNN_Train(train_config)
     train.train_rnn()
 
     # a = tf.zeros([1,2,3])
